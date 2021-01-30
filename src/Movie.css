@@ -1,0 +1,55 @@
+body {
+    margin: 0 auto;
+    width:100%;
+    background-color: #2f2f2f;
+}
+
+.movie {
+    position: relative;
+    float: left;
+    border: 1pt black solid;
+    margin: 120px;
+    padding-left: 200px;
+    width: 500px;
+    background-color: #2a2a2a;
+    box-shadow: 5pt 5pt 3pt black;
+}
+
+.movie img {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -180px;
+    width: 150px;
+    box-shadow: 5pt 5pt 3pt black;
+}
+
+.movie .movie_title {
+    font-size: x-large;
+    text-align: right;
+    margin-right: 50px;
+    color: white;
+}
+
+.movie .movie_year {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.movie .genres {
+    list-style: none;
+    display: inline;
+}
+.genres li {
+    float: left;
+    margin-left: 10px;
+    color: black;
+    font-weight: 600;
+    margin-top: -20px;
+}
+
+.movie .movie_summary {
+    text-indent: 15pt;
+    width: 80%;
+    color:white;
+    margin-bottom: 35px;
+}
